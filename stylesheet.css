@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link { color: #1f1fdf; }
+a:visited { color: #ee6bf3; }
+a:hover { color: #86eb58; }
+a:active { color: #ec953d; }
+
+
+body {
+    display: flex;
+    background-image: url("https://sozai-good.com/download?id=3129&type=1&subnumber=0&extention=jpg");
+    background-size: cover;
+}
+
+.nav-wrapper {
+    height: auto;
+    width: 18%;
+    background-color: #fff;
+}
+
+.nav {
+    margin-top: 43px;
+    margin-left: 18px;
+}
+
+.nav-icon {
+    height: 8px;
+    width: 8px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+}
+
+.contents-wrapper {
+    height: 100%;
+    width: 82%;
+    border-left: double;
+}
+
+.heading {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.contents-wrapper-inner {
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.content-left {
+    width: 350px;
+}
+
+.face-photo {
+    width: 100%;
+    height: 380px;
+}
+
+.profile {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.profile-english {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.mail {
+    margin-bottom: 20px;
+}
+
+.content-right {
+    width: 430px;
+}
+
+.news-heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.news-list {
+    margin-right: 60px;
+    margin-left: 60px;
+    font-weight: 600;
+}
+
+.news-list-title {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.news-list-description {
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.news-list-description p {
+    color: #ff0000;
+}
+
